@@ -9,12 +9,12 @@
 tc39.es (ecma 2023) js documentation like it give us standards  
 */
 
-let name ="sakshi" //string
-let age = "21" // number
-let isLoggedIn = false // boolean
+// let name ="sakshi" //string
+// let age = "21" // number
+// let isLoggedIn = false // boolean
 
 
-//* primitive dataTypes
+//* primitive dataTypes there is 7 types are as follow
 
 // number => 2 to power 53 ->  use to find range
 // bigint -> use for large number
@@ -24,14 +24,30 @@ let isLoggedIn = false // boolean
 // undefined -> not define any datatype
 // symbols -> unique
 
+ 
 
 
-//* Non-primitive DataType 
+//* Non-primitive DataType or Reference  
 
-// object
+// Arrays, objects, Functions 
 
 //console.log(typeof undefined); // undefined
 //console.log(typeof null); // object
+
+
+const heros = ["Rohit", "virat", "sidharth"];
+let myObj = {
+    name: "sakshi",
+    age: 21,
+
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+    
+}
+console.log(typeof heros);
+
  
 
 
