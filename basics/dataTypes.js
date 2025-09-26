@@ -28,4 +28,14 @@ let isLoggedIn = false // boolean
 
 //* Non-primitive DataType 
 
-//object
+// object
+
+//console.log(typeof undefined); // undefined
+//console.log(typeof null); // object
+ 
+
+
+
+
+
+
