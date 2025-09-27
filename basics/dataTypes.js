@@ -35,20 +35,48 @@ tc39.es (ecma 2023) js documentation like it give us standards
 //console.log(typeof null); // object
 
 
-const heros = ["Rohit", "virat", "sidharth"];
-let myObj = {
-    name: "sakshi",
-    age: 21,
+// const heros = ["Ankit", "virat", "sidharth"];
+// let myObj = {
+//     name: "sakshi",
+//     age: 21,
 
-}
+// }
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
     
-}
-console.log(typeof heros);
+// }
+// console.log(typeof heros);
 
  
+// * ==================================Memory================================//
+
+// stack(Primitive), Heap (Non-primitive)
+// ex- stack memory-> it gives copy from memory 
+
+let myName = "sakshi"
+let anothername = myName
+anothername = "Ankit"
+
+console.log(anothername);
+console.log(myName);
+ 
+
+// ex- Heap Memory -> it gives reference from the memory
+
+let userOne = {
+    email : "sakshigawali52@gmail.com",
+    passwor: "sakhu07"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sakshigoogle.com"
+
+console.log(userOne.email);
+console.log(userOne.email);
+
+
 
 
 
