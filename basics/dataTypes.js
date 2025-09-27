@@ -64,17 +64,19 @@ console.log(myName);
 
 // ex- Heap Memory -> it gives reference from the memory
 
-let userOne = {
-    email : "sakshigawali52@gmail.com",
-    passwor: "sakhu07"
-}
+// let userOne = {
+//     email : "sakshigawali52@gmail.com",
+//     passwor: "sakhu07"
+// }
 
-let userTwo = userOne
+// let userTwo = userOne
 
-userTwo.email = "sakshigoogle.com"
+// userTwo.email = "sakshigoogle.com"
 
-console.log(userOne.email);
-console.log(userOne.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+
 
 
 
