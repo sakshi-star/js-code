@@ -39,75 +39,81 @@
   
 //const tinderUser = Object() // -> it is a singleton object
 
-const tinderUser = {}
-tinderUser.id = "123abcc"
-tinderUser.name = "sakhu"
-tinderUser.isLoggedIn = false
+// const tinderUser = {}
+// tinderUser.id = "123abcc"
+// tinderUser.name = "sakhu"
+// tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
-const regularUser = {
-    email: "ankityadav",
-    fullname : {
-        usersfullname : {
-            firstname : "sakshi"
+// const regularUser = {
+//     email: "ankityadav",
+//     fullname : {
+//         usersfullname : {
+//             firstname : "sakshi"
             
-        }
-    }
-}
-console.log(regularUser.fullname.usersfullname);
+//         }
+//     }
+// }
+// console.log(regularUser.fullname.usersfullname);
 
-const target = { a: 1, b: 2 };
-const source = { b: 4, c: 5 };
+// const target = { a: 1, b: 2 };
+// const source = { b: 4, c: 5 };
 
-const returnedTarget = Object.assign({}, target, source);
+// const returnedTarget = Object.assign({}, target, source);
 
-console.log(returnedTarget);
+//console.log(returnedTarget);
 // Expected output: Object { a: 1, b: 4, c: 5 }
 
 //console.log(returnedTarget === target);
 // Expected output: true
 
-const user = [
-    {
-    id : 1,
-    email : "sakshi@123.com"
-},
-{
-    id : 2,
-    email : "sakhu@123.com"
-},
-{
-    id : 3,
-    email : "ankit@123.com"
-}
-]
-user[1].email
-console.log(tinderUser);
+// const user = [
+//     {
+//     id : 1,
+//     email : "sakshi@123.com"
+// },
+// {
+//     id : 2,
+//     email : "sakhu@123.com"
+// },
+// {
+//     id : 3,
+//     email : "ankit@123.com"
+// }
+// ]
+// user[1].email
+// console.log(tinderUser);
 
 
-console.log(Object.keys(tinderUser)); //  important for when we create the projects
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); // display the array
+// console.log(Object.keys(tinderUser)); //  important for when we create the projects
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); // display the array
 
-console.log(tinderUser.hasOwnProperty('isLogged')); // finds it has or not
+// console.log(tinderUser.hasOwnProperty('isLogged')); // finds it has or not
 
 const course = {
     coursename : "js code",
-    email : "@hiteshchoudary",
+    email : "@hiteshchoudary",  // * destructuring the objects
     price : "1499"
 }
 
-const {price} = course
+const {coursename} = course
+console.log(coursename);
 
-console.log(price);
 
 
 
 // const navbar = ({company}) => {
 
-// }
-
+// }      
 // navbar(company = "sakshi")
+
+
+// [
+//     {},
+//     {},
+//     {}
+// ] //* json structure
 
 
