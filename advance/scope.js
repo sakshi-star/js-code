@@ -9,7 +9,7 @@
 // 2. Block scope -> it means we write code in the functions or in the if else statement 
 //                   like it is the inner part of the code
 
-// * the global/core scope is different when we ckeck in console and also it get different result when we run via node 
+// * the global/core scope is different when we ckeck in console and also it get different result when we run via node environment
 
 // ! for ex-
 
