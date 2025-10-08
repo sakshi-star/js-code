@@ -90,3 +90,16 @@ function returnSecondValue(getArray){
 
 console.log(returnSecondValue(myNewArray));
 
+let val1 = 10
+let val2 = 20
+ function addNum(num1, num2){
+    const total = num1 + num2
+    return total
+ }
+
+ const result1 = addNum(val1, val2)
+ const result2 = addNum(7, 16)
+ console.log(result1);
+ console.log(result2);
+ 
+ 

@@ -9,18 +9,18 @@
 
 const gameName = new String('sakhuuu')
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gameName[0]);
+console.log(gameName.__proto__);
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
-// console.log(gameName.charAt(2));
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(2));
 
-// const newString = gameName.substring(0,4)
-// console.log(newString);
+const newString = gameName.substring(0,4)
+console.log(newString);
 
-// const anotherString = gameName.slice(-6, 5) -> used to reverse string print
-// console.log(anotherString);
+const anotherString = gameName.slice(-6, 5) // -> used to reverse string print
+console.log(anotherString);
 
 
 

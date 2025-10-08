@@ -1,4 +1,4 @@
-"use strict"; // treat all js code as newer version of js
+// * "use strict" (===) to treat all js code as newer version of js
 
 // alert( 3 + 3)  // we are using nodejs, not browser
 
@@ -14,7 +14,7 @@ tc39.es (ecma 2023) js documentation like it give us standards
 // let isLoggedIn = false // boolean
 
 
-//* primitive dataTypes there is 7 types are as follow
+//* there are 7 types of primitive dataTypes  are as follow
 
 // number => 2 to power 53 ->  use to find range
 // bigint -> use for large number
@@ -60,6 +60,9 @@ anothername = "Ankit"
 
 console.log(anothername);
 console.log(myName);
+// if statement
+if (true) {
+}
  
 
 // ex- Heap Memory -> it gives reference from the memory

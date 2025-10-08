@@ -23,11 +23,11 @@
 
 // console.log(Math.sqrt(625));
 
-// console.log(Math);
-// console.log(Math.abs(-4)); // abs stands for absolute values
-// console.log(Math.round(4.6)); // round it converts decimals nos in round of
-// console.log(Math.ceil(4.6)); // it use for if you want upper or top values
-// console.log(Math.floor(4.9)); // and it for lower or down no
+console.log(Math);
+console.log(Math.abs(-4)); // abs stands for absolute values
+console.log(Math.round(4.6)); // round it converts decimals nos in round of
+console.log(Math.ceil(4.6)); // it use for if you want upper or top values
+console.log(Math.floor(4.9)); // and it for lower or down no
 
 console.log(Math.random());
 console.log((Math.random()*10) + 1);
